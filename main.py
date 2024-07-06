@@ -3,8 +3,8 @@ import yagmail
 import time
 
 def email(image_path):
-    sender = 'jagdish95p@gmail.com'
-    receiver = 'youthfighters2k@gmail.com'
+    sender = 'sender Email'
+    receiver = 'Reciver Email'
     subject = 'Someone is in your house'
     contents = """
     Hi Jagdish,
@@ -12,7 +12,7 @@ def email(image_path):
     Someone is in your house. See the attached image for more details.
     """
 
-    password = 'vrjz nibl ebjn zwhp'
+    password = 'password'
     if not password:
         print("Error: PASSWORD environment variable not set.")
     else:
